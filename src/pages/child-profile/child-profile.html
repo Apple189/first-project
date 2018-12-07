@@ -1,0 +1,27 @@
+<!--
+  Generated template for the ChildProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Child Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item *ngIf="a" text-center >
+    <ion-avatar>
+    <img src="assets/imgs/tom.png" style="margin: auto; height: 150px; width: 150px; background-color: transparent">
+  </ion-avatar>
+  <h1>{{a.name}}</h1>
+  </ion-item><br><br>
+  <ion-label style="color: rgb(206, 67, 67); font-size: 15px; " *ngIf="a">Gender: {{a.gender}}</ion-label>
+  <ion-label style="color: rgb(206, 67, 67);" *ngIf="a">Age: {{a.age}}</ion-label>
+    <div style="color: rgb(206, 67, 67); font-weight: bold; font-size: 18px; text-align: center;" >Add another child</div>
+
+</ion-content>

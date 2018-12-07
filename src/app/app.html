@@ -1,0 +1,34 @@
+<ion-menu [content]="content">
+  <ion-header class="hdr">
+    <ion-toolbar>
+      <ion-title >Welcome</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button  ion-item (click)="parentprofile()" menuClose >
+        My account
+      </button>
+      <button  ion-item (click)="subscription()" menuClose >
+        Subscription
+      </button>
+      <button  ion-item (click)="course()" menuClose>
+        Course
+      </button>
+      <button  ion-item (click)="closeMenu()" menuClose>
+        Notification
+      </button>
+      <button  ion-item (click)="feedback()" menuClose>
+        Feedback
+      </button> 
+      <button  ion-item (click)="settings()" menuClose>
+        Settings
+      </button>
+      <button  ion-item (click)="logoutClicked()" menuClose>
+        Logout
+        </button>      
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content ></ion-nav>
+

@@ -1,0 +1,42 @@
+page-home {
+
+    .fontstyle
+    {
+        font-family: ink free;
+        
+    }
+    .image
+    {
+        height: 300px; width: 300px; 
+    }
+    .head
+    {
+        font-family: ink free; 
+        width: auto; color:rgb(214, 57, 84); 
+        font-weight: bold; 
+        font-size: 50px;
+    }
+    button
+    {
+        font-family: ink free;  
+        color:rgb(187, 21, 123); 
+        font-weight: bolder; 
+        font-size: 20px;
+        border: green;
+        
+    }
+    .slide-img{
+        background-image: url(../assets/imgs/abci.jpg);
+        background-size: cover;
+        
+    }
+    .slide-img1{
+        background-image: url(../assets/imgs/abcii.jpg);
+        background-size: cover;
+    }
+    .slide-img2{
+        background-image: url(../assets/imgs/abciii.jpeg);
+        background-size: cover;
+    }
+}
+
